@@ -68,10 +68,10 @@ const Home = () => {
     <section className="max-w-7xl mx-auto">
       <div class="text-center mx-auto">
       <h1 className="font-extrabold text-[#222328] text-[32px]">DALL-E 3</h1>
-      <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px] mx-auto">DALL·E 3 understands significantly more nuance and detail than our previous systems, allowing you to easily translate your ideas into 
+      <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px] mx-auto">DALL-E 3 understands significantly more nuance and detail than our previous systems, allowing you to easily translate your ideas into 
 exceptionally accurate images.</p>
 <br />
-      <Link to="/create-post" className="font-inter font-medium bg-[#000000] text-white px-4 py-2 rounded-md">Try in DALL-E 3</Link>
+      <Link to="/create-post" className="font-inter font-medium bg-[#000000] text-white px-4 py-2 rounded-md">Try DALL-E 3</Link>
     </div>
     
 
