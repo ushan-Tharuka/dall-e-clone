@@ -28,7 +28,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('http://localhost:8080/api/v1/dalle', {
+        const response = await fetch('https://dall-e-clone-sigma.vercel.app/api/v1/dalle', {
           //https://dalle-arbb.onrender.com/api/v1/dalle
           //http://localhost:8080/api/v1/dalle
           method: 'POST',
@@ -58,7 +58,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch('http://localhost:8080/api/v1/post', {
+        const response = await fetch('https://dall-e-clone-sigma.vercel.app/api/v1/post', {
           //https://dalle-arbb.onrender.com/api/v1/post
           //http://localhost:8080/api/v1/dalle
           method: 'POST',
