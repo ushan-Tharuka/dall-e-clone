@@ -12,7 +12,7 @@ const app = express();
 
 // CORS configuration to allow requests from the frontend
 const corsOptions = {
-  origin: 'https://dall-e-clone-nddx.vercel.app',  // Allow only the frontend domain
+  origin: 'http://dall-e-clone.rf.gd',  // Allow only the frontend domain
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 };
