@@ -10,9 +10,12 @@ dotenv.config();
 
 const app = express();
 
-// CORS configuration to allow requests from the frontend
+// CORS configuration to allow requests from your frontend and backend domains
 const corsOptions = {
-  origin: 'http://dall-e-clone.rf.gd',  // Allow only the frontend domain
+  origin: [
+    'http://dall-e-clone.rf.gd',    // Frontend domain
+    'https://dall-e-clone-backend-chi.vercel.app',  // Backend domain (if needed for communication)
+  ],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 };
