@@ -9,19 +9,7 @@ import dalleRoutes from './routes/dalleRoutes.js';
 dotenv.config();
 
 const app = express();
-
-// CORS configuration to allow requests from your frontend and backend domains
-const corsOptions = {
-  origin: [
-    'http://dall-e-clone.rf.gd',    // Frontend domain
-    'https://dall-e-clone-backend-chi.vercel.app',  // Backend domain (if needed for communication)
-  ],
-  methods: ['GET', 'POST'],
-  allowedHeaders: ['Content-Type'],
-};
-
-app.use(cors(corsOptions)); // Apply the CORS configuration
-
+app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
 app.use('/api/v1/post', postRoutes);
