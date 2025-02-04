@@ -28,7 +28,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://dall-e-clone-backend-chi.vercel.app/api/v1/dalle', {
+        const response = await fetch('https://dall-e-clone-nddx.vercel.app/api/v1/dalle', {
           //https://dall-e-clone-sigma.vercel.app/api/v1/dalle
           //http://localhost:8080/api/v1/dalle
           method: 'POST',
