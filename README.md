@@ -1,5 +1,7 @@
 # DALL-E Clone Project: AI-Powered Image Generation App
 
+![Home Page](https://miro.medium.com/v2/resize:fit:786/format:webp/1*DpApXelIDAOyRupjqz9OLQ.png)
+
 ## Overview
 The **DALL-E Clone** is an AI-powered image generation application that creates images based on text prompts using OpenAI's API. The app features a modern, responsive UI built with React and TailwindCSS, optimized development with Vite, and secure cloud storage for generated images using Cloudinary.
 
